@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: api-monitoring-backend
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/api_monitor
+
+server:
+  port: 3000
+
+app:
+  base-url: "http://localhost:"
+  jwt:
+    secret: "change-me-to-a-32-char-minimum-secret"
+  telegram:
+    access-token: "8026136237:AAH3LXUqCGwU07H1yr7qVhcL14ISzwoAQbg"
+  slack:
+    webhook-url: ""
+  cloudflare:
+    token: ""
+    image-percent-limit: 0.9
+    video-percent-limit: 0.9
+    notified-time-limit-ms: 3600000
+  trigger-block: 50
+  infura-key: ""
+  app:
+  seed-admin:
+    enabled: true
+    email: "admin@apimonitor.com"
+    password: "Admin1@apimonitor.com"
+    name: "Admin"
