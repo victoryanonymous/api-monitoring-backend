@@ -219,3 +219,8 @@ Start with these files in order:
 
 ---
 If you want a **line‑by‑line explanation for a specific file**, tell me the filename and I’ll go through it in detail.
+
+
+
+https://github.com/user-attachments/assets/e5cc8287-b4e9-4de9-9b0f-4a43798e518d
+
